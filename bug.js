@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable or prop before it has been assigned a value.  This is common when dealing with asynchronous operations or when components mount before data fetching is complete.  It often manifests as `undefined is not an object (evaluating '...state.someProperty...')` in the console. 
